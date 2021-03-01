@@ -1,9 +1,9 @@
-1. My name is Alexey Abramov
-2. Contacts:
+1. ### My name is Alexey Abramov
+2. ### Contacts:
     * Email:alex93178@gmail.com
     * Discord:alex93178
 3. I want to learn front-end to change my profession.
-4. HTML,CSS,JS,Git,BEM.
+4. ### HTML,CSS,JS,Git,BEM.
 5. 
 ```
  function removeEveryOther(arr){
