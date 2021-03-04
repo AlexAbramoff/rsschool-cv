@@ -11,6 +11,7 @@ section{
 }
 
 summary{
+    cursor: pointer;
     display: inline-block;
     padding: 0px 5px;
 }
