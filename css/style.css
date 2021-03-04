@@ -9,9 +9,13 @@ section{
     display: inline-block;
     margin: 10px 0;
 }
+
 summary{
     display: inline-block;
     padding: 0px 5px;
+}
+summary:first-of-type{
+    display: list-item;
 }
 ul{
     margin-left: 0;
@@ -23,6 +27,9 @@ pre{
 .avatar{
     width: 300px;
     height: 300px;
+}
+.header{
+    background-color: aqua;
 }
 .header-section{
     display: flex;
