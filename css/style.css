@@ -1,0 +1,64 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: beige;
+}
+section{
+    min-height: 100px;
+}
+.contacts-title{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+summary{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 5px;
+}
+summary:first-of-type{
+    display: list-item;
+}
+ul{
+    margin-left: 0;
+    padding-left: 20px;
+}
+pre{
+    text-align: left;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+}
+.header{
+    background-color: aqua;
+}
+.header-section{
+    display: flex;
+}
+h2{
+    margin-left: 50px;
+}
+.footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.git_link{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+
+}
+.git_logo{
+    width: 50px;
+    height: 50px;
+}
+.rs_link{
+    display: inline-block;
+}
+.rs_logo{
+    height: 50px;
+    width: 100px;
+}
