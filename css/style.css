@@ -249,6 +249,13 @@ h4 {
 .burger-menu.menu-open {
   display: flex;
 }
+.menu-open .nav-list {
+  flex-direction: column;
+  height: 384px;
+}
+.menu-open .nav-item {
+  border: none;
+}
 .burger.burger-open {
   position: fixed;
 }
@@ -256,7 +263,7 @@ h4 {
   width: 126%;
 }
 .burger-open .burger-line:nth-child(2) {
-  display: none;
+  opacity: 0;
 }
 .burger-open .burger-line:first-child {
   transform: rotate(45deg);
